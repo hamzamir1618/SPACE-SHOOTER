@@ -1,0 +1,2 @@
+g++ -IC:\SFML-2.5.1\include -c main.cpp -o game.o 
+g++ -LC:\SFML-2.5.1\lib .\game.o -o game.exe -lmingw32 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-main -mwind
